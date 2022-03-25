@@ -26,7 +26,3 @@ Route::get('/menu',  [PageController::class, 'menu']);
 Route::get('/single',  [PageController::class, 'single']);
 Route::get('/team',  [PageController::class, 'team']);
 
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
